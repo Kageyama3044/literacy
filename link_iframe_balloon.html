@@ -1,0 +1,11 @@
+<div class="baloonclose" style="position: absolute; cursor: pointer; right: 4px; top: 4px;"><img onclick="return manaba.userballoon_close(event);" src="/button_baloon_close.gif"></div>
+
+ <form name="linkform_iframe_balloon" action='link_balloon' target="link_iframe_balloon" method=POST>
+  <input type=hidden name=url value="https://admin.pm-chiba.tech/quiz.php">
+  <input type=hidden name=iframe value=1>
+ <input type=hidden name=WebatCSRFToken value="H4sIAAAAAAAA/2Ph5DA0MjYxNTO3YOHg4GBmZGBg4FKwsDAyMzIzNTe3TDI0tLBIM041MjJOM0kySk1MNDcyMOIEqgpOLS7OzM/zTAEAuLw9R0MAAAA="></form>
+ <iframe src="/1x1.gif" name="link_iframe_balloon" frameborder=0 scrolling=no>
+ </iframe>
+ <script type="text/javascript" language="Javascript1.5">
+ document.linkform_iframe_balloon.submit();
+ </script>
